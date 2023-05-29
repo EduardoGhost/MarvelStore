@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.marvelappx">
+    <!-- Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <queries> <intent> <action android:name="com.google.android.youtube.api.service.START" /></intent></queries>
+
+    <application
+        android:name = ".data.di.Application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MarvelAppX"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.CheckoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.DetalhesComics"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ListComics"
+            android:exported="true" />
+        <activity
+            android:name=".ui.FinalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.VideoViewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DialogWhenLarge"
+            />
+        <activity
+            android:name=".ui.PdfActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name=".ui.SplashScreemActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

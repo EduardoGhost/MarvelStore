@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ui.CheckoutActivity">
+
+    <RelativeLayout
+        android:layout_width="421dp"
+        android:layout_height="545dp">
+
+    <TextView
+        android:id="@+id/text_checkout"
+        android:layout_width="406dp"
+        android:layout_height="75dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="122dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="255dp"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/text_comic"
+        android:layout_width="280dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="288dp"
+        android:lines="2"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Titulo da Comic" />
+
+
+        <TextView
+            android:id="@+id/text_totalC"
+            android:layout_width="wrap_content"
+            android:layout_height="81dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="255dp"
+            android:lines="2"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="TOTAL" />
+
+        <TextView
+            android:id="@+id/text_quantidade"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="308dp"
+            android:lines="2"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="quantidade" />
+
+        <EditText
+            android:id="@+id/edit_cupom"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="158dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="309dp"
+            android:layout_marginEnd="244dp"
+            android:layout_marginBottom="196dp"
+            android:background="@color/grey"
+            android:hint="     copum"
+            android:textSize="12sp"
+            android:textColor="@color/LightGrey" />
+
+        <Button
+            android:id="@+id/btnAplicarCupom"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="305dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginRight="16dp"
+            android:text="aplicar"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnConfirmarCompra"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="231dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="390dp"
+
+            android:layout_marginEnd="104dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="109dp"
+            android:text="FINALIZAR COMPRA" />
+
+
+    </RelativeLayout>
+    </LinearLayout>

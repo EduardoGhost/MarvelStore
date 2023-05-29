@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    tools:context=".ui.DetalhesComics">
+
+
+    <RelativeLayout
+        android:layout_width="421dp"
+        android:layout_height="545dp">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="218dp"
+            android:layout_height="251dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+            android:id="@+id/text_Descricao2"
+            android:layout_width="205dp"
+            android:layout_height="190dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="355dp"
+            android:layout_marginEnd="202dp"
+            android:layout_marginBottom="0dp"
+            android:lines="6"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:text="Descrição da HQ" />
+
+        <TextView
+            android:id="@+id/text_comic"
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="252dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="185dp"
+            android:lines="2"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Titulo da Comic" />
+
+        <TextView
+            android:id="@+id/text_Precos_2"
+            android:layout_width="112dp"
+            android:layout_height="103dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginBottom="198dp"
+            android:layout_toRightOf="@id/image2"
+            android:textColor="@color/black"
+            tools:text="Preço" />
+
+        <TextView
+            android:id="@+id/text_total"
+            android:layout_width="95dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginBottom="289dp"
+            android:layout_toRightOf="@id/image2"
+            android:textColor="@color/black"
+            tools:text="total" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="89dp"
+            android:text="COMPRAR" />
+
+
+        <Button
+            android:id="@+id/buttonVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="234dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="114dp"
+            android:text="VIDEOBUTTON" />
+
+        <Button
+            android:id="@+id/buttonPDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="234dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="60dp"
+            android:text="PDFBUTTON" />
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="165dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="232dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="415dp" />
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout >
